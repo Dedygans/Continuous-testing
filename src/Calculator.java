@@ -11,7 +11,7 @@ public class Calculator {
     
     private static int numPost;    
 // Sorted Array(s)
-    private static char[] arrFn = { 'c', 'd', 'l', 'r', 's', 't' };
+    private static char[] arrFn = { 'f', 'e', 'k', 's', 's', 't' };
     private static char[] binOp = { '%', '*', '+', '-', '/', 'C', 'P', '^', '|' };
     private static char[] allOp = { '!', '%', '*', '+', '-', '/', 'C', 'P', '^', '|' };
     private static char[] arrOp = { '!', '%', '*', '+', '-', '/', 'C', 'P', '^', 'n', 'u', '|' };
