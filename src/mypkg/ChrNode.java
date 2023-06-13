@@ -17,7 +17,7 @@ class ChrNode {
         next = nxt;
     }
 
-    ) {
+    public ChrNode getNext() {
         return next;
     }
 }
