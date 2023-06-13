@@ -1,14 +1,4 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import mypkg.MyException;
-import mypkg.StrList;
-import mypkg.ChrStack;
-import mypkg.DblStack;
 
-public class Calculator {
-    
-    private static int numPost;
     // Sorted Array(s)
     private static char[] arrFn = { 'c', 'd', 'l', 'r', 's', 't' };
     private static char[] binOp = { '%', '*', '+', '-', '/', 'C', 'P', '^', '|' };
@@ -112,7 +102,7 @@ public class Calculator {
         return f;
     }
 
-  
+    private static double calc(double a, char ch, double b) throws MyException {
         double res = 0;
         if (ch == '+')
             res = a + b;
