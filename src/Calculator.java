@@ -18,7 +18,7 @@ public class Calculator {
     // Tree Level
     private static int[] idOp = { 0, 4, 4, 5, 5, 4, 1, 1, 2, 3, 3, 2 };
 
-    private static boolean isFunc(char ch) {
+    private static  isFunc(char ch) {
         int f = -1, m = f, l = 0, u = arrFn.length - 1;
         while (l <= u) {
             m = (l + u) / 2;
