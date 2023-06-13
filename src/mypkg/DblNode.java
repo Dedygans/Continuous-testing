@@ -15,9 +15,4 @@ class DblNode {
 
     public void setNext(DblNode nxt) {
         next = nxt;
-    }
-
-    public DblNode getNext() {
-        return next;
-    }
-}
+ 
