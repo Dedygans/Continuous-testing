@@ -29,7 +29,7 @@ public class Calculator {
                 f = m;
                 break;
             }
-        }
+        
         return (f >= 0);
     }
 
