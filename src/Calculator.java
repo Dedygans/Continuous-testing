@@ -7,7 +7,7 @@ import mypkg.ChrStack;
 import mypkg.DblStack;
 
 public class Calculator {
-    private static double ans;
+    
     private static int numPost;
     // Sorted Array(s)
     private static char[] arrFn = { 'c', 'd', 'l', 'r', 's', 't' };
@@ -112,7 +112,7 @@ public class Calculator {
         return f;
     }
 
-    private static double calc(double a, char ch, double b) throws MyException {
+  
         double res = 0;
         if (ch == '+')
             res = a + b;
