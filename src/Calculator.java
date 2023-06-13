@@ -508,7 +508,7 @@ public class Calculator {
         int cont = 1;
         do {
             numPost = -1;
-            System.out.println("\nEnter the EXPRESSION :=>\n");
+            System.out.println("\nPlease Enter the EXPRESSION :=>\n");
             String str = br.readLine().trim().replace(" ", "");
             if (str.length() == 0) {
                 System.out.println("\nSORRY ! You have entered NOTHING");
